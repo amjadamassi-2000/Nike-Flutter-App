@@ -32,8 +32,7 @@ class _MySplashScreenState extends State<MySplashScreen> {
             child: CircularProgressIndicator(
               //  backgroundColor: Colors.white,
               valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
-              strokeWidth: 5,
-
+              strokeWidth: 4,
               //  semanticsLabel: "loading.." ,
             ),
           ),
